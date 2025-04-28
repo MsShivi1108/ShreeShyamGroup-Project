@@ -11,7 +11,7 @@ export const mockProperties = [
       "30 ft wide main road, with 24 ft & 22 ft branch roads,Electricity & street lights, Green area & gated society, Proper drainage & shaded trees, Close to Night Safari & Zoo, Connected to the main Scorpio Club road",
     imageUrl: "/assets/ScorpioClub1.jpg",
     gallery: [
-      "/assets/ScorpioClub1.jpg",
+      "../../assets/ScorpioClub1.jpg",
       "../../assets/ScorpioClub2.png",
       "../../assets/ScorpioClub3.png",
     ],
