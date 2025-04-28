@@ -1,4 +1,3 @@
-
 import { Building, Star, Shield, Handshake, Users } from 'lucide-react';
 
 const AboutPage = () => {

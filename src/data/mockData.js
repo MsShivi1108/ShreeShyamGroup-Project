@@ -22,7 +22,7 @@ export const mockProperties = [
     location: "1 km from Bakshi Ka Talab Tehsil, 1 km from Outer Ring Road, Located behind Adhya Lawn, Sitapur Road, Lucknow",
     price: 1099,
     priceUnit: "sq ft",
-    size: "5000 sq ft",
+    size: "--",
     description: "30-feet wide main road, with 24 and 22-feet wide branch roads,Electricity and street lights,Green area, gated society, proper drainage system, and shady trees, Only 500 meters from Ram Sagar Mishra Government Hospital, Just 600 meters from RR College",
     imageUrl: "/assets/Sitapur1.jpg",
     gallery: [
@@ -39,7 +39,7 @@ export const mockProperties = [
     location: "Chandrika Devi Road, Bakshi Ka Talab, Lucknow",
     price: 1299,
     priceUnit: "sq ft",
-    size: "-- sq ft",
+    size: "--",
     description: "Strategic Location, Close to Outer Ring Road, only 1 km away, Ready-to-Move Plots, Peaceful Environment",
     imageUrl: "/assets/ChandrikaDevi1.png",
     gallery: [
@@ -56,7 +56,7 @@ export const mockProperties = [
     location: "Shukla Chauraha, Jankipuram Vistar, Lucknow",
     price: 2600,
     priceUnit: "sq ft",
-    size: "-- sq ft",
+    size: "--",
     description: "Prime Location : Situated just 300 meters from Shukla Chauraha in Jankipuram Extension, Secured and well-managed residential environment, Good Connectivity",
     imageUrl: "/assets/Jankipuram1.png",
     gallery: [
