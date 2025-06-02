@@ -11,15 +11,12 @@ const HomePage = () => {
   const [featuredProperties, setFeaturedProperties] = useState<PropertyType[]>([]);
 
   useEffect(() => {
-    // In a real app, this would fetch from your API
-    // For now, we'll use the mock data and filter for featured properties
     const featured = mockProperties.filter(property => property.featured).slice(0, 3);
     setFeaturedProperties(featured);
   }, []);
 
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Hero Section */}
       <section className="relative pt-30 pb-30 bg-cover bg-center" style={{ 
         backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=2000&q=80')" 
       }}>
