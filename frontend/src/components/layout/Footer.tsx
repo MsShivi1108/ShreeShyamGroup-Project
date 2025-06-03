@@ -5,7 +5,7 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#2D2D2D] text-white pt-16 pb-8">
+    <footer className="bg-[#2D2D2D] text-white pt-16 pb-8 px-4">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
@@ -22,8 +22,8 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h3 className="font-playfair text-xl font-semibold mb-4">
+          <div className="md:ml-16">
+            <h3 className="font-playfair text-xl font-semibold mb-4 ">
               Quick Links
             </h3>
             <ul className="space-y-2">
