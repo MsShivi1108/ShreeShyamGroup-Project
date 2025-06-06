@@ -42,5 +42,3 @@ app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
 
-// node server.js -- to start the server
-// Ensure MongoDB is running before starting the server and you are in same directory as server.js file is
